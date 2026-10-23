@@ -6,7 +6,7 @@ BANDI 토큰 실내 내비게이션의 **실행 파일 배포 저장소**입니�
 |---|---|
 | `pc_tool/` | Windows PC 툴 (반디 토큰 네비게이션). 설치 없이 실행 |
 | `gateway/` | 게이트웨이(ESP32-S3) 펌웨어 `firmware.bin` + `version.txt` |
-| `BANDI 실행.bat` | 최신 버전을 받은 뒤 PC 툴을 실행 |
+| `BANDI_Release.bat` | 최신 버전을 받은 뒤 PC 툴을 실행 |
 
 ## 현장 PC 준비 (처음 한 번)
 
@@ -15,16 +15,16 @@ BANDI 토큰 실내 내비게이션의 **실행 파일 배포 저장소**입니�
    ```
    git clone https://github.com/wshan1977/bandi-release.git C:\BANDI
    ```
-3. `C:\BANDI\BANDI 실행.bat`의 바로가기를 바탕화면에 만듭니다.
+3. `C:\BANDI\BANDI_Release.bat`의 바로가기를 바탕화면에 만듭니다.
 
 git 없이 쓰려면 GitHub 페이지의 **Code → Download ZIP**으로 받아 압축을 풀고 `pc_tool\bdci_manager.exe`를 실행하면 됩니다. 이 경우 자동 업데이트는 되지 않습니다.
 
 ## 사용
 
-- **`BANDI 실행.bat`으로 실행**합니다. 실행할 때마다 최신 배포본을 받은 뒤 툴을 엽니다.
+- **`BANDI_Release.bat`로 실행**합니다. 실행할 때마다 최신 배포본을 받은 뒤 툴을 엽니다.
   - 인터넷이 없으면 현재 버전으로 그대로 실행합니다.
 - 설정(맵·경로·미션·브로커)은 `%APPDATA%`에 저장되므로 업데이트해도 유지됩니다.
-- 툴을 실행 중일 때 새 버전이 올라오면 화면 아래에 알림이 뜹니다. 툴을 닫고 `BANDI 실행.bat`으로 다시 시작하세요.
+- 툴을 실행 중일 때 새 버전이 올라오면 화면 아래에 알림이 뜹니다. 툴을 닫고 `BANDI_Release.bat`로 다시 시작하세요.
 
 ## 게이트웨이 펌웨어 업데이트
 

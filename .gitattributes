@@ -1,0 +1,7 @@
+*.bat text eol=crlf
+*.md  text
+*.txt -text
+*.exe binary
+*.dll binary
+*.bin binary
+*.so  binary
